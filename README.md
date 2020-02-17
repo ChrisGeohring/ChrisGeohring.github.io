@@ -1,2 +1,2 @@
-# ChrisGeohring.github.io
-Personal Website
+# Personal Website
+[Go To Website](https://chrisgeohring.github.io/)
