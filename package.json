@@ -1,48 +1,60 @@
 {
-  "name": "personal-website",
-  "private": true,
-  "description": "My personal website built with gatsby.",
+  "name": "typescript-react-app",
   "version": "0.1.0",
-  "author": "Chris Geohring <chris.geohring@gmail.com>",
+  "private": true,
   "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-lottie": "^1.2.3",
+    "@types/reactstrap": "^8.4.2",
     "bootstrap": "^4.4.1",
-    "gatsby": "^2.19.7",
-    "gatsby-image": "^2.2.39",
-    "gatsby-plugin-manifest": "^2.2.39",
-    "gatsby-plugin-offline": "^3.0.32",
-    "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.4.3",
-    "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-transformer-sharp": "^2.3.13",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-bootstrap": "^1.0.0-beta.16",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-lottie": "^1.2.3"
+    "node-sass": "^4.13.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-social-icons": "^4.1.0",
+    "reactstrap": "^8.4.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "yarn eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint-and-fix": "yarn eslint . --fix --ext .js,.jsx,.ts,.tsx"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
+    "@types/reactstrap": "^8.4.2",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "prettier": "^1.19.1",
-    "react-social-icons": "^4.1.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "tslint": "^6.0.0",
+    "typings": "^2.1.1"
   }
 }
