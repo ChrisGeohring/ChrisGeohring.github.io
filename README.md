@@ -1,21 +1,3 @@
-# Jarvis Weblet Template
-## Technologies Used
-- Create React App with TypeScript
-  - ```yarn create react-app my-app --template typescript```
-- Webpack, Babel
-  - ```yarn run eject```
-- typescript-eslint for Linter
-  - Follow Instuctions [Here](https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/README.md)
-- SASS
-  - Instructions [Here](https://medium.com/@oreofeolurin/configuring-scss-with-react-create-react-app-1f563f862724)
-- Prettier
-  - Instructions [Here](https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project)
-  - Handles code formatting in conjunction with eslint.
-- React Router
-  - Enables weblets with multiple pages
-  - ```yarn add install react-router-dom```
-- Internationalization [react-i18next](https://github.com/i18next/react-i18next)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
