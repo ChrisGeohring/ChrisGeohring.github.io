@@ -1,0 +1,33 @@
+#home{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    overflow: hidden;
+    position: relative; /* or absolute or fixed */
+}
+
+
+  @media (orientation:landscape) {
+
+    #home{
+        background-image: url("./me.jpg");
+    } 
+
+    #myVideo {
+        display: none;
+      }
+ }
+
+ @media (orientation:portrait) {
+
+    #myVideo {
+        position: absolute;
+        left: 50%; /* % of surrounding element */
+        top: 50%;
+        transform: translate(-50%, -50%); /* % of current element */
+        height: 100%;
+        min-height: 100%;
+      }
+    
+ }

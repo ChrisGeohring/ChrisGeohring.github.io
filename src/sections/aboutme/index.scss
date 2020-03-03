@@ -1,0 +1,28 @@
+#about{
+    height: 100vh;
+}
+
+#aboutme-blurb{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-right: 15px;
+}
+
+#aboutme-column {
+    height: 100%;
+    position: relative;
+}
+
+#images{
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+    #about{
+        background-color: rgb(44, 44, 44);
+        color: rgb(164, 164, 175);
+    }
+  }
