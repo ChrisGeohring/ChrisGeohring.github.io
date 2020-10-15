@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Collapse, Container, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import './index.scss';
+import React, { Component } from "react";
+import { Collapse, Container, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from "reactstrap";
+import "./index.scss";
 
 interface NavProps {
   isOpen: boolean;
@@ -17,7 +17,7 @@ export default class MyNavbar extends Component<{}, NavProps> {
   };
 
   isDarkMode = (): boolean => {
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
   };
 
   render() {
@@ -35,7 +35,7 @@ export default class MyNavbar extends Component<{}, NavProps> {
             <NavbarBrand href="#home" className="mr-auto" id="navbrand">
               Chris Geohring
             </NavbarBrand>
-            <NavbarToggler id="navtoggle" onClick={this.toggle} />
+            <NavbarToggler id="navbar-toggle" onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
