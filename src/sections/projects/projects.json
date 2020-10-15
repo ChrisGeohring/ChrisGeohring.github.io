@@ -1,0 +1,56 @@
+{
+    "projects": [
+      {
+        "title": "Verify",
+        "text": "Worked on Verify, the web app designed for mobile devices to scan Secure QR Codes.",
+        "languages": ["HTML", "CSS", "Javascript", "C++", "Rails", "Emscripten"],
+        "link": "https://verify.linkcreationstudio.com"
+      },
+      {
+        "title": "LinkReader",
+        "text": "Worked on LinkReader, the Android and iOS app designed to scan Link enabled content such as QR Codes, Secure QR Codes, and Watermarked images (think 'invisible' QR Code)",
+        "languages": ["iOS", "Android", "C++"],
+        "link": "https://mylinks.linkcreationstudio.com/app"
+      },
+      {
+        "title": "HP Reveal",
+        "text": "Worked on Reveal, the platform that provided a solutions for smart anti-counterfeiting packaging, package tracking, and engaging customer experiences through Reveal enabled packaging.",
+        "languages": ["HTML", "CSS", "Javascript", "Rails", "C++"],
+        "link": "https://www.linkcreationstudio.com"
+      },
+      {
+        "title": "SmartTasks",
+        "text": "Worked on the front and back end to enable SmartTasks for the HP SmartApp and the HP JetAdvantage Capture app.",
+        "languages": ["Spring", "Java", "iOS", "Android", "Xamarin"],
+        "link": "https://www.youtube.com/watch?v=T-jJy7hBS18"
+      },
+      {
+        "title": "PageLift",
+        "text": "Worked on PageLift, the C++ library that enables document detection, capture, and intelligent enhancement. Integrated into HP Smart and JetAdvantage Capture.",
+        "languages": ["C++", "Python", "iOS", "Android", "Xamarin"],
+        "link": "https://play.google.com/store/apps/details?id=com.hp.printercontrol"
+      },
+      {
+        "title": "Feather Frenzy",
+        "text": "Made this fun Android game with two of my friends in college as a side project. Game is inspired by a mini game from Super Mario 64 for the Nintendo DS.",
+        "languages": ["Android", "Java"],
+        "link": "https://play.google.com/store/apps/details?id=com.chasm.featherfrenzy"
+      },
+      {
+        "title": "Animal Crossing Price Lookup",
+        "text": "I made this simple page in an afternoon when Animal Crossing came out in early 2020. I wanted a tool so that I could quickly check prices of what animals I caught. Much better and more acurate tools are out now, but this was fun none the less!",
+        "languages": ["React"],
+        "link": "http://powerful-savannah-68959.herokuapp.com/"
+      },
+      {
+        "title": "This Website",
+        "text": "This website is written with React!",
+        "languages": ["React", "Typescript", "SCSS"]
+      },
+      {
+        "title": "Soon To Be Released HP Product",
+        "text": "Written with React, and utilizing an HP Modified version of ionic capacitor !",
+        "languages": ["React", "Typescript", "SCSS", "Android", "iOS", "Xamarin"]
+      }
+    ]
+  }
